@@ -707,7 +707,7 @@ header {
   border: 1px solid #E95924;
   padding: 60px;
   position: relative;
-  margin: 90px auto;
+  margin: 90px auto 50px;
 }
 .section_rate .rate_table::before {
   position: absolute;
@@ -743,7 +743,15 @@ header {
 .section_rate .btn {
   margin: 0 auto;
 }
-
+.dop_link{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  margin-bottom: 40px;
+  font-size: 16px;
+  text-decoration: underline;
+  text-align: center;
+}
 .section_deposit {
   text-align: center;
   margin-bottom: 90px;
